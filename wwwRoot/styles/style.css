@@ -1,0 +1,54 @@
+﻿body {
+    background: #312e2b;
+}
+
+.container {
+    position: relative;
+}
+
+.canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+} 
+
+.sidebar{
+    position: absolute;
+    background: white;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.score_area{
+    height: 100px;
+    border-radius: 5px 5px 0 0;
+    background: #659dbd;
+    overflow: auto;
+}
+
+.moves_area{
+    height: 90%;
+    overflow: scroll;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.move_box {
+    padding: 10px;
+    overflow: auto;
+}
+
+.move_num{
+    width:20%;
+    float:left;
+}
+
+.move_white {
+    width: 40%;
+    float: left
+}
+
+.move_black {
+    width: 40%;
+    float: right
+}
